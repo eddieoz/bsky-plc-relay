@@ -1,0 +1,18 @@
+{
+  "name": "relay-proxy-service",
+  "version": "1.0.0",
+  "description": "A simple relay/proxy service in Node.js using Express and node-fetch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "2"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
