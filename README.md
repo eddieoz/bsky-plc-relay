@@ -72,10 +72,6 @@ PORT=3000
 
 Contributions are welcome! If you have suggestions for improving the reliability, adding features, or making the proxy easier to use, feel free to open an issue or submit a pull request.
 
-## Disclaimer
-This software is provided "AS IS", without warranty or guarantee of any kind, either expressed or implied. 
-USE AT YOUR OWN RISK. You understand and agree that using this software is at your own risk. 
-
 ## License
 
 MIT License. See the [LICENSE](LICENSE) file for more details.
