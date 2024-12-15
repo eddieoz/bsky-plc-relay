@@ -1,4 +1,4 @@
-# PLC Relay Proxy
+# PLC Relay
 
 This project provides a simple relay/proxy service for the [PLC (Placeholder) directory](https://web.plc.directory/) used by [Bluesky](https://bsky.social/about/). It allows you to self-host a relay to forward requests to a central PLC server, as well as multiple distributed read endpoints. By doing so, you can offload some operations, maintain local copies of accounts, and ultimately reduce reliance on a single central PLC endpoint to validate DIDs.
 
