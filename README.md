@@ -1,4 +1,4 @@
-# PLC Relay
+# BlueSky Multiple PLC Relay
 
 This project provides a simple relay/proxy service for the [PLC (Placeholder) directory](https://web.plc.directory/) used by [Bluesky](https://bsky.social/about/). It allows you to self-host a relay to forward requests to a central PLC server, as well as multiple distributed read endpoints. By doing so, you can offload some operations, maintain local copies of accounts, and ultimately reduce reliance on a single central PLC endpoint to validate DIDs.
 
@@ -48,7 +48,7 @@ If you intend to run this relay in a production environment, you should ensure t
 
 ```env
 WRITE_ENDPOINT=https://your-write-plc-endpoint.example.com
-READ_ENDPOINTS=https://read-plc-endpoint-1.example.com,https://read-plc-endpoint-2.example.com, [...]
+READ_ENDPOINTS=https://your-write-plc-endpoint.example.com, https://read-plc-endpoint-1.example.com,https://read-plc-endpoint-2.example.com, [...]
 PORT=3000
 ```
 
